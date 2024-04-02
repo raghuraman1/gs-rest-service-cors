@@ -11,10 +11,14 @@
 :source-highlighter: prettify
 :project_id: gs-rest-service-cors
 
+Forked variation. Made to help some friends.  
+
 This guide walks you through the process of creating a "`Hello, World`" RESTful web
 service with Spring that includes headers for Cross-Origin Resource Sharing (CORS) in the
 response. You can find more information about Spring CORS support in this
-link:/blog/2015/06/08/cors-support-in-spring-framework[blog post].
+link:/blog/2015/06/08/cors-support-in-spring-framework[blog post].  
+
+This is a variation of the forked url. Uses post.  
 
 == What You Will Build
 
@@ -419,6 +423,8 @@ the following because the service response includes the relevant CORS headers, s
 the page:
 
 image::{images}/hello.png[Model data retrieved from the REST service is rendered into the DOM if the proper CORS headers are in the response.]
+
+You can also do this on port 9080 with similar steps as with port 9000.  
 
 Now, stop the application running at port 9000, keep the application running at port 8080 and run the following Maven
 command in another terminal:
